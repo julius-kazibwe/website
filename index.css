@@ -1,0 +1,67 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: rgb(193, 250, 231);
+}
+#container{
+    position: absolute;
+    left:400px;
+
+}
+div {
+    cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: auto;
+    padding: 50px, 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+h2{
+    display:inline-block;
+}
+#hobbies{
+    background-color: rgb(32, 32, 231);
+    position: absolute;
+    top:400px;
+    left:0;
+}
+#contact{
+    background-color: rgb(168, 76, 107);
+    position: absolute;
+    top:400px;
+    left:400px;
+}
+#mybio{
+    background-color: grey;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#educ{
+    background-color: plum;
+    position: absolute;
+    top:200px;
+    left:200px;
+}
+#photo{
+    background-color: rgb(116, 187, 10);
+    position: absolute;
+    top:0;
+    left:400px;
+}
+a:hover{
+    color: #fde408;
+}
+.panel:hover{ 
+    background:#fde408;
+}
+table, th, td{
+   border:1px solid ;
+}
