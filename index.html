@@ -3,44 +3,41 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0, shrink-to-fit=no">
-	<title>My personal website</title>
+	<title>Kazibwe Julius</title>
+   <link rel="stylesheet" href="index.css">
+   <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+   <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 
 <body>
-
-<header>
-   <figure>
-   <img src="profile.jpeg" width=200 alt="not supported">
-   <figcaption>KAZIBWE JULIUS</figcaption>
-   </figure>
-   <h1>WELCOME TO MY PAGE.</h1><hr>
-</header>
-
- <h3>About Me</h3>
-
- <p>I'm a software engineering student at Makerere univeristy. I am very passionate about developing advanced software that is reusable, easily understood by fellow developers and enhances functionality of devices greatly.
-    I come from a humble background which pushes me to work harder to achieve the best after the four years of study at the university.
-    I look forward to take an initiative of making Uganda one of the advanced countries in developing and releasing reliable technology.
- </p><hr>
-
- <h3>My hobbies and interests.</h3>
- <ol>
-    <li>Playing Baseball</li>
-    <li>Playing Basketball</li>
-    <li>Acting and shooting movies.</li>
-    <li>Going to recreation centres.</li>
- </ol>
- <a href="myhobbies.html"><h4>Photos</h4></a><hr>
-
-<form method="POST" action="mailto:kazibwej54@gmail.com" enctype="multipart/form-data">
-	<fieldset>
-      <legend>Leave a comment and contact me</legend>
-        <P><label>Name:</label>
-        <input type="text" name="contactName" placeholder="ENTER YOUR NAME"></P>
-        <P><label>Message:</label>
-        <textarea placeholder="COMMENT" name="comment" rows="10" cols="80"></textarea></P>
-    </fieldset>
-    <input type="submit" value="contact me">
-</form>
+   <div id="container">
+   <a href="bio.html" >
+   <div class="panel" id="photo">
+      <h2>My photo</h2>
+   </div>
+   </a>
+   <a href="bio.html">
+      <div class="panel" id="mybio">
+      <h2>My Bio</h2>
+     </div>
+   </a>
+   <a href="educHistory.html"> 
+   <div class="panel" id="educ">
+     <h2>My education history</h2>
+   </div>
+   </a>
+   <a href="myhobbies.html">
+   <div class="panel" id="hobbies">
+      <h2>My hobbies</h2>
+   </div>
+   </a>
+   <a href="contact.html">
+   <div class="panel" id="contact">
+      <h2>Contact me</h2>
+   </div> 
+   </a>
+</div>
 </body>
 </html>
