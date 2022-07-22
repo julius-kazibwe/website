@@ -25,6 +25,7 @@ div {
 }
 h2{
     display:inline-block;
+    margin:auto;
 }
 #hobbies{
     background-color: rgb(32, 32, 231);
@@ -56,7 +57,7 @@ h2{
     top:0;
     left:400px;
 }
-a:hover{
+a,div:hover{
     color: #fde408;
 }
 .panel:hover{ 
